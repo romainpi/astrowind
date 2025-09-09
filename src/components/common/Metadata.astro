@@ -55,7 +55,6 @@ const seoProps: AstroSeoProps = merge(
   {
     title: title,
     titleTemplate: ignoreTitleTemplate ? '%s' : undefined,
-    canonical: canonical,
     noindex: typeof robots?.index !== 'undefined' ? !robots.index : undefined,
     nofollow: typeof robots?.follow !== 'undefined' ? !robots.follow : undefined,
     description: description,
